@@ -1,9 +1,9 @@
-package my.project.myprojectfinal.db
+package my.project.myprojectfinal.todolist.db
 
 import android.content.Context
 import androidx.room.*
-import my.project.myprojectfinal.db.todolist.Catatanharian
-import my.project.myprojectfinal.db.todolist.CatatanharianDao
+import my.project.myprojectfinal.todolist.db.todolist.Catatanharian
+import my.project.myprojectfinal.todolist.db.todolist.CatatanharianDao
 
 @Database(entities = [Catatanharian::class], exportSchema = false, version = 1)
 abstract class AppDatabase : RoomDatabase() {

@@ -1,4 +1,4 @@
-package my.project.myprojectfinal.db.todolist
+package my.project.myprojectfinal.todolist.db.todolist
 
 import androidx.lifecycle.LiveData
 import androidx.room.*

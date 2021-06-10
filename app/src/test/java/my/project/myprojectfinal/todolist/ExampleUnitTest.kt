@@ -1,4 +1,4 @@
-package my.project.myprojectfinal
+package my.project.myprojectfinal.todolist
 
 import org.junit.Test
 

@@ -1,10 +1,10 @@
-package my.project.myprojectfinal.ui
+package my.project.myprojectfinal.todolist.ui
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
-import my.project.myprojectfinal.db.todolist.Catatanharian
-import my.project.myprojectfinal.db.todolist.CatatanharianRepository
+import my.project.myprojectfinal.todolist.db.todolist.Catatanharian
+import my.project.myprojectfinal.todolist.db.todolist.CatatanharianRepository
 
 class CatatanharianViewModel(application: Application) : AndroidViewModel(application) {
 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_catatanharian" />
+
+    <ImageView
+        android:id="@+id/todophoto"
+        android:layout_width="223dp"
+        android:layout_height="231dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="250dp"/>
+
+    <TextView
+        android:id="@+id/quotes"
+        android:layout_width="308dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="308dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:id="@+id/quotesby"
+        android:layout_marginTop="200dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

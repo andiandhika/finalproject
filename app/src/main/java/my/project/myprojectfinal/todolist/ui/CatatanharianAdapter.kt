@@ -1,4 +1,4 @@
-package my.project.myprojectfinal.ui
+package my.project.myprojectfinal.todolist.ui
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,8 +6,8 @@ import android.view.ViewGroup
 import android.widget.Filter
 import android.widget.Filterable
 import androidx.recyclerview.widget.RecyclerView
-import my.project.myprojectfinal.R
-import my.project.myprojectfinal.db.todolist.Catatanharian
+import my.project.myprojectfinal.todolist.R
+import my.project.myprojectfinal.todolist.db.todolist.Catatanharian
 import kotlinx.android.synthetic.main.item_catatanharian.view.*
 
 class CatatanharianAdapter(todoEvents: TodoEvents) : RecyclerView.Adapter<CatatanharianAdapter.TodoViewHolder>(),

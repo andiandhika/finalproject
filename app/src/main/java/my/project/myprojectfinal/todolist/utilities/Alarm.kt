@@ -1,4 +1,4 @@
-package my.project.myprojectfinal.utilities
+package my.project.myprojectfinal.todolist.utilities
 
 import android.app.AlarmManager
 import android.app.NotificationChannel
@@ -10,7 +10,7 @@ import android.content.Intent
 import android.media.RingtoneManager
 import android.os.Build
 import androidx.core.app.NotificationCompat
-import my.project.myprojectfinal.R
+import my.project.myprojectfinal.todolist.R
 
 class Alarm : BroadcastReceiver(){
     companion object{

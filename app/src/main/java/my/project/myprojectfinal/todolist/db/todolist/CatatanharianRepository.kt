@@ -1,8 +1,8 @@
-package my.project.myprojectfinal.db.todolist
+package my.project.myprojectfinal.todolist.db.todolist
 
 import android.app.Application
 import androidx.lifecycle.LiveData
-import my.project.myprojectfinal.db.AppDatabase
+import my.project.myprojectfinal.todolist.db.AppDatabase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking

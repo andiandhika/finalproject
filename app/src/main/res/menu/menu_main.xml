@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="info.androidhive.recyclerviewsearch.MainActivity">
+
+    <item
+        android:id="@+id/searchlist"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:title="@string/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+    <item
+        android:id="@+id/sortingDibuat"
+        app:showAsAction="never"
+        android:title="@string/berdasarkaningtanggaldibuat" />
+
+    <item
+        android:id="@+id/sortingJatuhTempo"
+        app:showAsAction="never"
+        android:title="@string/berdasarkantanggaljatuhtempo" />
+
+</menu>

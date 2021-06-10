@@ -1,4 +1,4 @@
-package my.project.myprojectfinal.ui
+package my.project.myprojectfinal.todolist.ui
 
 import android.app.Activity
 import android.app.AlertDialog
@@ -15,11 +15,11 @@ import androidx.appcompat.widget.SearchView
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import my.project.myprojectfinal.R
-import my.project.myprojectfinal.db.todolist.Catatanharian
-import my.project.myprojectfinal.utilities.Constants
-import my.project.myprojectfinal.utilities.Constants.INSERT
-import my.project.myprojectfinal.utilities.Constants.UPDATE
+import my.project.myprojectfinal.todolist.R
+import my.project.myprojectfinal.todolist.db.todolist.Catatanharian
+import my.project.myprojectfinal.todolist.utilities.Constants
+import my.project.myprojectfinal.todolist.utilities.Constants.INSERT
+import my.project.myprojectfinal.todolist.utilities.Constants.UPDATE
 import kotlinx.android.synthetic.main.activity_isicatatanharian.*
 import kotlinx.android.synthetic.main.activity_main.*
 

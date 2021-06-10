@@ -1,4 +1,4 @@
-package my.project.myprojectfinal.ui
+package my.project.myprojectfinal.todolist.ui
 
 import android.app.AlertDialog
 import android.content.DialogInterface
@@ -7,11 +7,11 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
-import my.project.myprojectfinal.R
-import my.project.myprojectfinal.db.todolist.Catatanharian
-import my.project.myprojectfinal.utilities.Alarm
-import my.project.myprojectfinal.utilities.Constants
-import my.project.myprojectfinal.utilities.Constants.waktuUnix
+import my.project.myprojectfinal.todolist.R
+import my.project.myprojectfinal.todolist.db.todolist.Catatanharian
+import my.project.myprojectfinal.todolist.utilities.Alarm
+import my.project.myprojectfinal.todolist.utilities.Constants
+import my.project.myprojectfinal.todolist.utilities.Constants.waktuUnix
 import kotlinx.android.synthetic.main.activity_pembuatan.*
 import java.text.SimpleDateFormat
 import java.util.*
